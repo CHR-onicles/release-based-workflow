@@ -24,6 +24,3 @@ jobs:
           generate_release_notes: true
           body_path: ${{ github.workspace }}/CHANGELOG.md
           repository: CHR-onicles/release-based-workflow
-          # note you'll typically need to create a personal access token
-          # with permissions to create releases in the other repo
-          # token: ${{ secrets.CUSTOM_TOKEN }}
