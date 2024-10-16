@@ -1,5 +1,17 @@
 
 
+# [1.4.0](https://github.com/CHR-onicles/release-based-workflow/compare/v1.3.2...v1.4.0) (2024-10-16)
+
+
+### Features
+
+* Added a small change ([0bf07fe](https://github.com/CHR-onicles/release-based-workflow/commit/0bf07fecb64c6d4308c3d70cd4c5577446cf3b16))
+
+
+### Performance Improvements
+
+* Test ([4c2a8df](https://github.com/CHR-onicles/release-based-workflow/commit/4c2a8df07150e4833cc69a86c1a9eb0eafd564da))
+
 ## [1.3.2](https://github.com/CHR-onicles/release-based-workflow/compare/v1.3.1...v1.3.2) (2024-10-16)
 
 ## [1.3.1](https://github.com/CHR-onicles/release-based-workflow/compare/v1.3.0...v1.3.1) (2024-10-16)
