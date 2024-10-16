@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump:patch": "git pull -ff && npm version patch && git push --follow-tags",
     "bump:minor": "git pull -ff && npm version minor && git push --follow-tags",
-    "release": "dotenv release-it --only-version"
+    "release": "dotenv release-it --ci"
   },
   "author": {
     "name": "CHR-onicles"
