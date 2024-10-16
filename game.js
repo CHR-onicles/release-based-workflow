@@ -353,3 +353,5 @@ Explosion.prototype.step = function (dt) {
 window.addEventListener("load", function () {
   Game.initialize("game", sprites, startGame);
 });
+
+// Random comment here
