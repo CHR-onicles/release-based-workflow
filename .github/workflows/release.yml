@@ -19,8 +19,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           onlyLastTag: true
           prWoLabels: true
-          unreleased: false
-          stripGeneratorNotice: false # Job fails if it's true
+          # unreleased: false
+          stripGeneratorNotice: true # Job fails if it's true
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
