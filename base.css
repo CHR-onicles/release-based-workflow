@@ -141,5 +141,4 @@ table {
 /* Give canvas a background */
 canvas {
   background-color: black;
-  white-space: inherit;
 }
