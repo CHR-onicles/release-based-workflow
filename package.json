@@ -1,6 +1,6 @@
 {
   "name": "release-based-workflow",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "Release-based workflow short course",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
