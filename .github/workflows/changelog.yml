@@ -1,9 +1,11 @@
 name: Changelog
+# on:
+#   release:
+#     types: [created, published]
 on:
-  release:
-    types:
-      - created
-      - published
+  push:
+    tags:
+      - "v*.*.*"
 jobs:
   changelog:
     runs-on: ubuntu-latest
