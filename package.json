@@ -6,13 +6,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump:patch": "git pull -ff && npm version patch && git push --follow-tags",
     "bump:minor": "git pull -ff && npm version minor && git push --follow-tags",
-    "release": "release-it --dry-run"
+    "release": "dotenv release-it --dry-run"
   },
   "author": {
     "name": "CHR-onicles"
   },
   "license": "ISC",
   "devDependencies": {
+    "dotenv-cli": "^7.4.2",
     "release-it": "^17.9.0"
   }
 }
