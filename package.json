@@ -1,9 +1,10 @@
 {
   "name": "release-based-workflow",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Release-based workflow short course",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump:patch": "npm version patch && git push --follow-tags"
   },
   "author": {
     "name": "CHR-onicles"
