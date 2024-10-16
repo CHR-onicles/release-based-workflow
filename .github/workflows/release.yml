@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           onlyLastTag: true
-          prWoLabels: true
+          # prWoLabels: false
           # unreleased: false
           stripGeneratorNotice: false # Job fails if it's true
       - name: Release
