@@ -141,4 +141,5 @@ table {
 canvas {
   background-color: black;
   font-size: inherit;
+  white-space: nowrap;
 }
