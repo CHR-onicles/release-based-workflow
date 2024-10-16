@@ -1,8 +1,5 @@
 
-## [Unreleased]
-
-
-## [1.3.2](https://github.com/CHR-onicles/release-based-workflow/compare/v1.3.1...v1.3.2) (2024-10-16)
+# [1.3.2](https://github.com/CHR-onicles/release-based-workflow/compare/v1.3.1...v1.3.2) (2024-10-16)
 
 ## [1.3.1](https://github.com/CHR-onicles/release-based-workflow/compare/v1.3.0...v1.3.1) (2024-10-16)
 
