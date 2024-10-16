@@ -18,10 +18,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           onlyLastTag: true
+          simpleList: true
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          generate_release_notes: true
+          generate_release_notes: false
           body_path: ${{ github.workspace }}/CHANGELOG.md
           repository: CHR-onicles/release-based-workflow
           # note you'll typically need to create a personal access token
