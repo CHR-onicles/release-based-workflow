@@ -135,6 +135,7 @@ table {
   padding-top: 50px;
   margin: 0 auto;
   width: 480px;
+  box-sizing: border-box;
 }
 
 /* Give canvas a background */
