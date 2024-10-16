@@ -13,13 +13,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: "./changelog.md"
-
-      - name: Commit changelog
-        run: |
-          git config --local user.name "Your Name"  # Replace with your name
-          git config --local user.email "your-email@example.com"  # Replace with your email
-          git add changelog.md
-          git commit -m "Update changelog"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GITHUB_TOKEN for authentication
