@@ -20,7 +20,7 @@ jobs:
           onlyLastTag: true
           # prWoLabels: false
           unreleased: false
-          stripGeneratorNotice: false # Job fails if it's true
+          # stripGeneratorNotice: false # Job fails if it's true
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
